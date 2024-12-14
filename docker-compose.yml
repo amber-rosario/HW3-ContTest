@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  snake:
+    image: 'ambrsrio0812/nodejschatapp:latest'
+    environment:
+      - "PORT:3700"
+    ports:
+      - "80:3700"
+    volumes:
+      - ./:/app
